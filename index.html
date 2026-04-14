@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Правила Discord‑сервера</title>
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class="header-content">
+			<h1>🛡️ Правила Discord‑сервера <span class="server-name">Galdren x Sha1d1 Universe</span></h1>
+			<p>Официальный документ с правилами поведения и взаимодействия в нашем уникальном сообществе</p>
+		</div>
+		<div class="controls">
+			<button id="themeToggle" class="btn-theme">🌙 Тёмная тема</button>
+			<input type="text" id="searchInput" placeholder="Поиск по правилам Galdren x Sha1d1 Universe...">
+	  </div>
+	</header>
+
+	<nav class="tabs">
+		<button class="tab-link active" data-tab="general">📋 Общие правила</button>
+		<button class="tab-link" data-tab="chat">💬 Общение в чатах</button>
+		<button class="tab-link" data-tab="voice">🎙️ Голосовые каналы</button>
+		<button class="tab-link" data-tab="content">🖼️ Контент и медиа</button>
+		<button class="tab-link" data-tab="advertising">🚫 Реклама и спам</button>
+		<button class="tab-link" data-tab="punishments">🚨 Наказания</button>
+		<button class="tab-link" data-tab="faq">❓ FAQ</button>
+	</nav>
+
+	<main>
+		<!-- Общие правила -->
+		<section id="general" class="tab-content active">
+			<article class="rule-card">
+				<h3>🔒 Основные принципы</h3>
+				<ul>
+					<li>Уважение ко всем участникам сообщества.</li>
+					<li>Запрещены любые формы дискриминации.</li>
+					<li>Соблюдение законодательства РФ и международных норм.</li>
+					<li>Запрет на пропаганду насилия, экстремизма и наркотиков.</li>
+				</ul>
+			</article>
+			<article class="rule-card">
+				<h3>👤 Идентичность</h3>
+				<ul>
+					<li>Запрещено выдавать себя за других людей.</li>
+					<li>Никнеймы не должны содержать оскорблений.</li>
+					<li>Аватарки должны быть приличными.</li>
+				</ul>
+			</article>
+		</section>
+
+		<!-- Общение в чатах -->
+		<section id="chat" class="tab-content">
+			<article class="rule-card">
+				<h3>💬 Текстовые каналы</h3>
+				<ul>
+					<li>Соблюдайте тематику каналов.</li>
+					<li>Запрещён флуд (более 5 сообщений подряд).</li>
+					<li>Запрещены капс‑сообщения (более 30% заглавных букв).</li>
+					<li>Не злоупотребляйте упоминаниями (@all, @here).</li>
+					<li>Оффтоп разрешён только в специальных каналах.</li>
+				</ul>
+			</article>
+			<article class="rule-card">
+				<h3>🗣️ Язык общения</h3>
+				<ul>
+					<li>Основной язык — русский.</li>
+					<li>Английский язык разрешён в тематических каналах.</li>
+					<li>Запрещены нецензурные выражения в чрезмерном количестве.</li>
+				</ul>
+			</article>
+		</section>
+
+		<!-- Голосовые каналы -->
+		<section id="voice" class="tab-content">
+			<article class="rule-card">
+				<h3>🎙️ Правила голосовых каналов</h3>
+				<ul>
+					<li>Не включайте музыку с ненормативной лексикой.</li>
+					<li>Уважайте других участников — не кричите в микрофон.</li>
+					<li>Запрещены звуки, вызывающие дискомфорт (ультразвук и т. п.).</li>
+					<li>Не занимайте каналы без активности более 30 минут.</li>
+				</ul>
+			</article>
+		</section>
+
+		<!-- Контент и медиа -->
+		<section id="content" class="tab-content">
+			<article class="rule-card">
+				<h3>🖼️ Изображения и видео</h3>
+				<ul>
+					<li>Запрещён NSFW‑контент.</li>
+					<li>Размер изображений — не более 10 МБ.</li>
+					<li>Видео — не более 50 МБ или ссылки на YouTube/Vimeo.</li>
+					<li>Обязательно ставьте спойлеры для шокирующего контента.</li>
+				</ul>
+			</article>
+			<article class="rule-card">
+				<h3>📎 Ссылки</h3>
+				<ul>
+					<li>Запрещены фишинговые и вредоносные ссылки.</li>
+					<li>Все ссылки должны соответствовать тематике канала.</li>
+					<li>Запрещена массовая рассылка одинаковых ссылок.</li>
+				</ul>
+			</article>
+		</section>
+
+		<!-- Реклама и спам -->
+		<section id="advertising" class="tab-content">
+			<article class="rule-card">
+				<h3>🚫 Запрещённая реклама</h3>
+				<ul>
+					<li>Любая реклама без разрешения администрации.</li>
+					<li>Массовая рассылка приглашений на другие серверы.</li>
+					<li>Промокоды и партнёрские ссылки без согласования.</li>
+					<li>Спам в личных сообщениях.</li>
+				</ul>
+			</article>
+			<article class="rule-card">
+				<h3>✅ Разрешённая самореклама</h3>
+				<ul>
+					<li>1 пост в день в канале #self-advertizement.</li>
+					<li>Только контент, связанный с тематикой сервера.</li>
+					<li>Обязательное использование шаблона поста.</li>
+				</ul>
+			</article>
+		</section>
+
+		<!-- Наказания -->
+		<section id="punishments" class="tab-content">
+			<div class="punishments-grid">
+				<article class="punishment-card warning">
+					<h3>⚠️ Предупреждение</h3>
+					<p>Первое незначительное нарушение.</p>
+				</article>
+				<article class="punishment-card mute">
+					<h3>⏱️ Мут (1 час)</h3>
+					<p>Повторное нарушение или более серьёзное нарушение.</p>
+				</article>
+				<article class="punishment-card ban">
+					<h3>🔒 Бан (24 часа)</h3>
+					<p>Серьёзное нарушение или игнорирование предупреждений.</p>
+				</article>
+				<article class="punishment-card permanent">
+					<h3>💀 Вечный бан</h3>
+					<p>Грубое нарушение (экстремизм, мошенничество и т. д.).</p>
+				</article>
+			</div>
+		</section>
+
+		<!-- FAQ -->
+		<section id="faq" class="tab-content">
+			<div class="faq-list">
+				<details open>
+					<summary>Как обжаловать наказание?</summary>
+					<p>Напишите модератору в личные сообщения с описанием ситуации.</p>
+				</details>
+				<details>
+					<summary>Что считается спамом?</summary>
+					<p>Спам — это повторяющиеся сообщения, бессмысленные символы или массовая рассылка приглашений.</p>
+				</details>
+				<details>
+					<summary>Можно ли предлагать новые правила?</summary>
+					<p>Да, предложения можно оставить в канале #suggestions.</p>
+				</details>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>Последнее обновление: <span id="lastUpdate"></span></p>
+		<p>© 2026 Наш Discord‑сервер. Все права защищены.</p>
+	</footer>
+
+	<script src="assets/js/script.js"></script>
+</body>
+
+</html>
